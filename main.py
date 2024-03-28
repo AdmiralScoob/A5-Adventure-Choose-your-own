@@ -2,12 +2,6 @@ choice = "0"
 phase = 0
 doLoop = True
 
-
-def placeholder():
-  print("PLACEHOLDER TEXT")
-  quit()
-
-
 while doLoop:
   if phase == 0:
     print(
@@ -26,7 +20,7 @@ while doLoop:
     choice = input("Do you risk the bridge (E) or swing across the rope (F)?")
   if phase == 3:
     print(
-        "\nYou run away from the dragon and it gets stuck in the tunnel. It tries to breath fire at you but you get away."
+        "\nYou run away from the dragon and it gets stuck in the tunnel. It tries to breathe fire at you but you get away."
     )
     phase = 97
   if phase == 4:
